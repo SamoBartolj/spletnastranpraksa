@@ -1,0 +1,135 @@
+body{
+    background-image: url(slike/bg.png)
+}
+
+.naslov{
+    text-align: center;
+    font-size: 40px;
+}
+
+.navbar{
+    margin-left: 15%;
+    text-align: center;
+    background-color: red;
+    display: block;
+    width: 75%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.navitem{
+    padding: 4px;
+    text-underline-position: below;
+}
+
+.container{
+    display: block;
+    width: 75%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column-left{ 
+    float: left; 
+    width: 24%; 
+    margin-right: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.column-right{ 
+    float: right; 
+    width: 24%; 
+    margin-left: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+.column-center{ 
+    display: inline-block; 
+    width: 45%; 
+    background-color: white;
+    padding: 10px;
+}
+
+.slika-naslov{
+    background-color: white;
+    display: block;
+    width: 75%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.underlined{
+    text-decoration: underline;
+    color: rgb(228, 43, 43);
+}
+
+.slika2{
+    float: left;
+    display: block;
+    width: 100%px;
+    padding: 10px;
+}
+
+.slika3{
+    width: 250px;
+    height: auto;
+}
+
+.slike4{
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding-right: 5px;
+}
+
+.cloumn1-right{
+    float: right;
+    width: 48%;
+    text-align: left;
+    border: 1px solid white;
+}
+
+.cloumn1-left{
+    float: left;
+    width: 48%;
+    text-align: left;
+    border: 1px solid white;
+}
+
+.trow{
+    border: 1px solid white;
+}
+
+tr, th{
+    border: 1px solid
+    
+}
+
+table{
+    width: 100%;
+}
+
+.dotline{
+    border-top: dotted 2px;
+}
+
+.footer{
+    width: 65%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(117, 117, 117);
+    padding: 10px;
+
+    
+}
+
+.footertxt{
+    color: white;
+}
