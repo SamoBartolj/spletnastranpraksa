@@ -102,9 +102,6 @@ body{
     border: 1px solid white;
 }
 
-.trow{
-    border: 1px solid white;
-}
 
 tr, th{
     border: 1px solid
@@ -113,6 +110,24 @@ tr, th{
 
 table{
     width: 100%;
+    border-collapse: collapse;
+}
+
+.prvi{
+    background-color: rgb(139, 138, 138);
+}
+
+.drugi{
+    background-color: rgb(194, 197, 189);
+}
+
+.tbarva{
+    color: white;
+}
+
+.meja{
+    padding: 5px;
+    border: 3px solid red;
 }
 
 .dotline{
@@ -132,4 +147,8 @@ table{
 
 .footertxt{
     color: white;
+}
+
+.trow{
+    border: 1px solid white;
 }
